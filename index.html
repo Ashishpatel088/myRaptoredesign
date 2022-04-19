@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Raptor</title>
+
+        <!-- for media quiry -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- index.css link -->
+        <link rel="stylesheet" type="text/css" href="./styles/index.css">
+        <!-- font-aosome link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!-- Start Header Section  -->
+        <header class="header" id="headerNavbar">
+            <div class="nav-container">
+                <nav class="navbar">
+                        <div class="navbar-brand">
+                            <a href="#">RAPTOR.</a>
+                        </div>
+                        <div class="navbar-menu">
+                            <ul class="navbar-menu-list" id="menu-list-btn">
+                                <li class="navbar-menu-list-item"><a href="#" class="nav-active">Home</a></li>
+                                <li class="navbar-menu-list-item"><a href="#">About</a></li>
+                                <li class="navbar-menu-list-item"><a href="#">Domain</a></li>
+                                <li class="navbar-menu-list-item"><a href="#">Hosting</a></li>
+                                <li class="navbar-menu-list-item"><a href="#">Blog</a></li>
+                                <li class="navbar-menu-list-item"><a href="#">Contact</a></li>
+                                <li class="navbar-menu-list-item item-btn"><a href="#">Get started</a></li>  
+                                <!-- <li class="menu-icon" ></li> -->
+                            </ul>
+                            <div class="menu-icon">
+                                <a href="javascript:void(0);" onclick="myToggle()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Start Banner Section -->
+        <div class="banner">
+            <div class="banner-container">
+                <div class="banner-content">
+                    <div class="circle-bg"></div>
+                    <div class="circle-bg2"></div>
+                    <div class="banner-text">
+                        <h1>Design.<br> Development. <br> Hosting.<br></h1>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        <p><a href="#">Get started</a></p>
+                    </div>
+                    <div class="banner-slider">
+                       <div class="banner-slider-img">
+                           <img src="Images/slider1.webp" alt="mysliderPage" />
+                       </div>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    <!-- end banner section -->
+
+    <!-- start get domain section -->
+    <div class="getdomain">
+        <div class="getdomain-container">
+            <div class="row content-center">
+                <div class="getdomain-detail">
+                    <span>Get domain</span>
+                    <h2>Get A Domain Name</h2>
+                    <p>With FREE Email, DNS, Theft Protection, and other features</p>
+                </div>
+            </div>
+            <div class="row content-center">
+                <div class="getdomain-detail">
+                    <div class="domain-form">
+                        <form class="form-detail">
+                            <div class="form-content">
+                                <input type="text" class="form-text" placeholder="Enter your domain name...">
+                                <input type="submit" class="search-domain" value="Search Domain">
+                            </div>
+                        </form>
+                        <p class="domain-price">
+                            <span><small>.com</small>9.75</span>
+                            <span><small>.net</small>9.90</span>
+                            <span><small>.blz</small>$8.95</span>
+                            <span><small>.me</small>$7.95 </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end get domain section -->
+
+    <!-- start services section -->
+    <div class="service">
+        <div class="service-container">
+            <div class="service-content">
+                <div class="service-heading">
+                    <p>Services</p>
+                    <h2>Why choose us</h2>
+                </div>
+                <div class="services-box-content">
+                    <div class="box">
+                        <div class="service-icon">
+                            
+                            <span><i class="fa fa-snowflake-o" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="service-detail">
+                            <h3>100% Uptime Guarantee</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="service-icon">
+                            <span><i class="fa fa-shield" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="service-detail">
+                            <h3>Safe and Secured</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="service-icon">
+                            <span><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="service-detail">
+                            <h3>Our Dedicated Support</h3>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- end services section  -->
+
+   <!-- start pricing plan -->
+
+    <div class="pricing-plan">
+        <div class="pricing-container">
+            <div class="pricing-content">
+                <div class="pricing-heading">
+                    <p>pricing plan</p>
+                    <h2>Our Best Pricing</h2>
+                </div>
+                <div class="price-box-content">
+                    <div class="price-box">
+                        <div class="price-text-center">
+                            <h2>Free</h2>
+                            <span class="price"><sup>$</sup><span class="number">0</span></span>
+                            <span class="excert">100% free. Forever</span>
+                            <a href="#" class="price-btn">Get Started</a>
+                            <h3 class="heading-feture">Enjoy All The Features</h3>
+                            <ul class="pricing-list">
+                                <li><strong>150 GB</strong> Bandwidth</li>
+                                <li><strong>100 GB</strong>  Storage</li>
+                                <li><strong>$1.00 / GB</strong>  Overages</li>
+                                <li> All features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-text-center">
+                            <h2>Startup</h2>
+                            <span class="price"><sup>$</sup><span class="number">19</span></span>
+                            <span class="excert">All features are included</span>
+                            <a href="#" class="price-btn">Get Started</a>
+                            <h3 class="heading-feture">Enjoy All The Features</h3>
+                            <ul class="pricing-list">
+                                <li><strong>450 GB</strong> Bandwidth</li>
+                                <li><strong>400 GB</strong>  Storage</li>
+                                <li><strong>$2.00 / GB</strong>  Overages</li>
+                                <li> All features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-text-center">
+                            <h2>Premium</h2>
+                            <span class="price"><sup>$</sup><span class="number">49</span></span>
+                            <span class="excert">All features are included</span>
+                            <a href="#" class="price-btn">Get Started</a>
+                            <h3 class="heading-feture">Enjoy All The Features</h3>
+                            <ul class="pricing-list">
+                                <li><strong>250 GB</strong> Bandwidth</li>
+                                <li><strong>200 GB</strong>  Storage</li>
+                                <li><strong>$5.00 / GB</strong>  Overages</li>
+                                <li> All features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="price-box">
+                        <div class="price-text-center">
+                            <h2>Pro</h2>
+                            <span class="price"><sup>$</sup><span class="number">99</span></span>
+                            <span class="excert">All features are included</span>
+                            <a href="#" class="price-btn">Get Started</a>
+                            <h3 class="heading-feture">Enjoy All The Features</h3>
+                            <ul class="pricing-list">
+                                <li><strong>450 GB</strong> Bandwidth</li>
+                                <li><strong>400 GB</strong>  Storage</li>
+                                <li><strong>$20.00 / GB</strong>  Overages</li>
+                                <li> All features</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- end pricing plan -->
+
+   <!-- start fun facts section -->
+   <div class="fun-facts">
+      
+            <div class="fun-facts-container">
+                <div class="facts-content">
+                    <div class="facts-heading">
+                            <h2>Some fun facts</h2>
+                            <p>More than 100,000 websites hosted</p>
+                    </div>
+                    <div class="hosted-result">
+                        <div class="result-box">
+                            <h2>2,000</h2>
+                            <p>CMS Installation</p>
+                        </div>
+                        <div class="result-box">
+                            <h2>100</h2>
+                            <p>Awards Won</p>
+                        </div>
+                        <div class="result-box">
+                            <h2>32,000</h2>
+                            <p>Registered Domains</p>
+                        </div>
+                        <div class="result-box">
+                            <h2>31,998</h2>
+                            <p>Registered Domains</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+   </div>
+
+   <!-- end fun facts section -->
+
+   <!-- start custumer section -->
+
+   <div class="customers">
+       <div class="customers-container">
+           <div class="customers-content">
+               <div class="customer-heading">
+                    <span>Customer Says</span>
+                    <h2>Our satisfied customer says</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,<br> there live the blind texts. Separated they live in</p>
+               </div>
+               <div class="customer-detail">
+                    <div class="customers-box">
+                        <div class="customers-img">
+                            <span class="quat-icon"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="customers-text">
+                            <p class="customers-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="cust-name">Dennis Green</p>
+                            <span>Web Developer</span>
+                        </div>
+                    </div>
+                    <div class="customers-box">
+                        <div class="customers-img">
+                            <span class="quat-icon"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="customers-text">
+                            <p class="customers-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="cust-name">Dennis Green</p>
+                            <span>Web Developer</span>
+                        </div>
+                    </div>
+                    <div class="customers-box">
+                        <div class="customers-img">
+                            <span class="quat-icon"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="customers-text">
+                            <p class="customers-para">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p class="cust-name">Dennis Green</p>
+                            <span>Web Developer</span>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- End customers section -->
+
+   <!-- start services section -->
+
+   <div class="services-provide">
+       <div class="servi-container">
+           <div class="servi-content">
+               <div class="servi-heading">
+                   <span>Services</span>
+                   <h2>How it works</h2>
+               </div>
+               <div class="servi-btn">
+                   <a href="#" class="servi-btn1 active">Next gen VPS</a>
+                   <a href="#" class="servi-btn1">Performance</a>
+                   <a href="#" class="servi-btn1">Effectiveness</a>
+               </div>
+               <div class="next-gen-vps">
+                   <div class="next-gen-img">
+                        <img src="Images/servi-img2.webp" alt="service-img">
+                   </div>
+                   <div class="next-gen-detail">
+                        <h2>Next gen VPS hosting</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                            there live the blind texts. 
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                             a large language ocean.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nesciunt voluptate, quibusdam sunt iste dolores consequatur
+                        </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- End services section -->
+
+   <!-- start subscription section -->
+
+   <div class="subscription">
+       <div class="subscription-container">
+           <div class="subcription-content">
+               <div class="subscription-detail">
+                   <h2>Subcribe to our Newsletter</h2>
+                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                       there live the blind texts. Separated they live in</p>
+                    <div class="sub-mail">
+                        <span class="sub-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        <input type="email" class="email-sub" placeholder="Enter email address" /></span>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- End subscription section -->
+
+   <!-- start blog section  -->
+
+   <div class="blog">
+       <div class="blog-container">
+           <div class="blog-content">
+               <div class="blog-heading">
+                    <span>blog</span>
+                    <h2>Recent Blog</h2>
+                    <p>Far far away, behind the word mountains, 
+                        far from the countries Vokalia and Consonantia, there live the blind texts.
+                         Separated they live in
+                    </p>
+               </div>
+               <div class="blog-box-content">
+                   <div class="blog-box">
+                       <div class="blog-img">
+                            <a href="#"><img class="myblog-img" src="/Images/blogimg1.webp" alt="blog-img" /></a>
+                       </div>
+                       <div class="blog-text">
+                            <div class="blog-data">
+                                <div class="data"><a href="#">August 12, 2018</a></div>
+                                <div class="data"><a href="#">Admin</a></div>
+                                <div class="data"><a href="#"><span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>3</a></div>
+                            </div>
+                            <div class="img-heading">
+                                <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="blog-box">
+                    <div class="blog-img">
+                         <a href="#"><img class="myblog-img" src="/Images/blogimg2.webp" alt="blog-img" /></a>
+                    </div>
+                    <div class="blog-text">
+                         <div class="blog-data">
+                             <div class="data"><a href="#">August 12, 2018</a></div>
+                             <div class="data"><a href="#">Admin</a></div>
+                             <div class="data"><a href="#"><span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>3</a></div>
+                         </div>
+                         <div class="img-heading">
+                             <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                         </div>
+                    </div>
+                </div>
+                <div class="blog-box">
+                    <div class="blog-img">
+                         <a href="#"><img class="myblog-img" src="/Images/blogimg3.webp" alt="blog-img" /></a>
+                    </div>
+                    <div class="blog-text">
+                         <div class="blog-data">
+                             <div class="data"><a href="#">August 12, 2018</a></div>
+                             <div class="data"><a href="#">Admin</a></div>
+                             <div class="data"><a href="#"><span><i class="fa fa-commenting-o" aria-hidden="true"></i></span>3</a></div>
+                         </div>
+                         <div class="img-heading">
+                             <h3><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                         </div>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- end blog section -->
+
+   <!-- start footer section -->
+   <footer class="main-footer">
+       <div class="footer-container">
+           <div class="footer-content">
+               <div class="footer-section">
+                    <div class="footer-section-content">
+                        <div class="footer-box">
+                            <h2>Raptor.</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                                there live the blind texts.
+                            </p>
+                            <a href="#" class="get-in-touch">Get in touch</a>
+                        </div>
+                        <div class="footer-box">
+                            <h2>Unseful Links</h2>
+                            <ul class="footer-box23">
+                                <li><a href="#">Servers</a></li>
+                                <li><a href="#">Windos Hosting</a></li>
+                                <li><a href="#">Cloud Hosting</a></li>
+                                <li><a href="#">OS Servers</a></li>
+                                <li><a href="#">Linux Servers</a></li>
+                                <li><a href="#">Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-box">
+                            <h2>Navigational</h2>
+                            <ul class="footer-box23">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Domain</a></li>
+                                <li><a href="#">Hosting</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-box">
+                            <div class="bussiness-address">
+                                <ul class="company-info">
+                                    <li class="address-data">
+                                        <div class="foo-icon">
+                                            <span class="foo-icon">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="address">
+                                            <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                                        </div>
+                                    </li>
+                                    <li class="address-data">
+                                        <div class="foo-icon">
+                                            <span class="foo-icon">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="address">
+                                            <span>	+2 392 3929 210 </span>
+                                            
+                                        </div>
+                                    </li>
+                                    <li class="address-data">
+                                        <div class="foo-icon">
+                                            <span class="foo-icon">
+                                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="address">
+                                            <span>info@yourdomain.com </span>
+                                            
+                                        </div>
+                                    </li>
+                                    <li class="address-data">
+                                        <div class="foo-icon">
+                                            <span class="foo-icon">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                            </span>
+                                        </div>
+                                        <div class="address">
+                                            <span>Saturday — Sunday 8:00am - 5:00pm</span>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social-media">
+                                <li class="social-icon"><a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a></li>
+                                <li class="social-icon"><a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a></li>
+                                <li class="social-icon"><a href="#"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+               </div>
+               <div class="footer-copyright">
+                    <p>Copyright © 2022 All rights reserved | This template is made with  by <a href>Colorlib</a></p>
+               </div>
+           </div>
+       </div>
+   </footer>
+
+   <!-- End footer section -->
+    <script src="/scripts/index.js"></script>   
+    </body>
+</html>
